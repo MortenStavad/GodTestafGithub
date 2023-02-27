@@ -1,5 +1,15 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "type":  "al",
+            "request":  "launch",
+            "name":  "StavadTest",
+            "server":  "http://stavadtest",
+            "serverInstance":  "BC",
+            "port":  7049,
+            "tenant":  "default",
+            "authentication":  "UserPassword"
+        }
     ]
 }
