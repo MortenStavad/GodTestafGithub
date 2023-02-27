@@ -1,4 +1,4 @@
-pageextension 50000 "FMD - Customer" extends "Customer Card"
+pageextension 50002 "FMD - Customer" extends "Customer Card"
 {
     layout
     {
