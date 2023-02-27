@@ -1,0 +1,7 @@
+{
+  "Environments": ["Test", "Prod"],
+  "country": "dk",
+  "appFolders": [],
+  "testFolders": [],
+  "bcptTestFolders": []
+}
