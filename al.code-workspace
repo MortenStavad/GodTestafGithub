@@ -2,6 +2,9 @@
   "folders": [
     {
       "path": ".AL-Go"
+    },
+    {
+      "path": "TestAfGithubV2"
     }
   ],
   "settings": {}
