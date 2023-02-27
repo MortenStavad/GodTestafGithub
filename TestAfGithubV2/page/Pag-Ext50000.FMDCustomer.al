@@ -6,6 +6,7 @@ pageextension 50000 "FMD - Customer" extends "Customer Card"
         {
             field("Name 3"; Rec."Name 3")
             {
+                ApplicationArea = All;
 
             }
         }
