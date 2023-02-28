@@ -14,7 +14,7 @@ codeunit 50100 "FMD - GenJournalFunctions"
             TempCSVBuffer.SetFilter("Field No.", '2..');
             if TempCSVBuffer.FindSet(true, true) then
                 repeat
-                    MyDialog.Open('Arbejder med Object #1####### #2###### working...');
+                    MyDialog.Open('Arbejder med Object #1####### #2##### working...');
                     for i := 1 to 50000 do begin
                         CreateGenJorunalLine(TempCSVBuffer, GenJournalLine, TempCSVBuffer."Line No.");
                         MyDialog.Update(1, i);
