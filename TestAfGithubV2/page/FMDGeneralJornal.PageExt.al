@@ -21,7 +21,7 @@ pageextension 50100 "FMD - General Jornal" extends "General Journal"
                 ApplicationArea = All;
                 trigger OnAction()
                 var
-                    GenJournalFunctions: Codeunit "FMD - GenJournalFunctions";''
+                    GenJournalFunctions: Codeunit "FMD - GenJournalFunctions";
                 begin
                     GenJournalFunctions.ImportCSVFile(Rec);
                 end;
