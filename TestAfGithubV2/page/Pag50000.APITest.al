@@ -10,6 +10,8 @@ page 50000 "API Test"
     PageType = api;
     SourceTable = Customer;
     DeleteAllowed = false;
+    Editable = false;
+    DataAccessIntent = ReadWrite;
 
     layout
     {
