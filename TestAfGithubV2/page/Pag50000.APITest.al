@@ -11,6 +11,7 @@ page 50000 "API Test"
     SourceTable = Customer;
     DeleteAllowed = false;
     Editable = false;
+    ModifyAllowed = true;
 
     layout
     {
