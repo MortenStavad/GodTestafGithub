@@ -1,5 +1,5 @@
 {
-  "Environments": ["Test","Prod"],
+  "Environments": ["Test","Sandbox","Prod"],
   "country": "dk",
   "appFolders": [],
   "testFolders": [],
