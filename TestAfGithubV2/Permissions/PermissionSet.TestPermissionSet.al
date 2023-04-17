@@ -2,8 +2,8 @@ permissionset 50000 Test_PermissionSet
 {
     Assignable = true;
     Caption = 'Test_PermissionSet', MaxLength = 30;
-    Permissions =
-        table "Amparex Account No. Trans" = X,
+    Permissions = table "Amparex Account No. Trans" = X,
         tabledata "Amparex Account No. Trans" = RMID,
-        codeunit "FMD - GenJournalFunctions" = X;
+        codeunit "FMD - GenJournalFunctions" = X,
+        page "Teat af listpage" = X;
 }
