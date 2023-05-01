@@ -3,5 +3,14 @@
   "country": "dk",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "DeployToSandbox": {
+    "EnvironmentName": "Sandbox"
+    },
+  "DeployToProd": { 
+    "EnvironmentName": "Production"
+    },
+  "DeployToTest": { 
+    "EnvironmentName": "Test"
+    }
 }
