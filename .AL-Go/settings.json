@@ -4,6 +4,9 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
+  "enableCodeCop":  true,
+  "enableAppSourceCop":  false,
+  "enablePerTenantExtensionCop":  true,
   "DeployToSandbox": {
     "EnvironmentName": "Sandbox"
     },
@@ -13,4 +16,5 @@
   "DeployToTest": { 
     "EnvironmentName": "Test"
     }
+ 
 }
