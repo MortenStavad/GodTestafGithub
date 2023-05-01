@@ -342,11 +342,6 @@ page 50001 "Teat af listpage"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the customer''s intercompany partner code.';
                 }
-                field(Id; Rec.Id)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Id field.';
-                }
                 field(Image; Rec.Image)
                 {
                     ApplicationArea = All;
